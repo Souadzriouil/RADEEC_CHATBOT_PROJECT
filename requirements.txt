@@ -1,4 +1,6 @@
 langchain
+langchain-core
+langchain-community
 sentence-transformers
 streamlit
 python-dotenv
