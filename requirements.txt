@@ -1,7 +1,7 @@
 langchain
 sentence-transformers
 streamlit
-sqlite3
 python-dotenv
 transformers
 torch
+pandas
