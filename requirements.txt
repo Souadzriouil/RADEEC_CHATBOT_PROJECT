@@ -2,6 +2,7 @@ langchain
 langchain-core
 langchain-community
 sentence-transformers
+langchain_huggingface
 streamlit
 python-dotenv
 transformers
