@@ -205,18 +205,10 @@ Benefits:
 
 ## 👩‍💻 Author
 
-Souad Zriouil  
-AI & Data Science Engineer
+**Souad Zriouil**  
+AI Engineer | Data Scientist | Machine Learning | NLP | LLM  
 
-Skills:
-
-- Machine Learning
-- NLP
-- LLM
-- RAG
-- Chatbot development
-- Python
-- SQL
+[![GitHub](https://img.shields.io/badge/GitHub-Souadzriouil-black?logo=github)](https://github.com/Souadzriouil)
 
 ---
 
