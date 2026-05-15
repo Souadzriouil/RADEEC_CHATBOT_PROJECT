@@ -1,140 +1,202 @@
+<div align="center">
+
 # 🤖 RADEEC RAG Chatbot
 
-## 📌 Overview
-RADEEC RAG Chatbot is an AI-powered customer support assistant built using Retrieval-Augmented Generation (RAG).
+### 🧠 AI-Powered Customer Support Assistant using Retrieval-Augmented Generation (RAG)
 
-The chatbot combines semantic search with Large Language Models (LLMs) to provide accurate and context-aware answers to customer questions about:
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LLaMA%203-Groq-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FAISS-Vector%20Search-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Streamlit-Interactive-red?style=for-the-badge"/>
+</p>
+
+</div>
+
+---
+
+# 📌 Overview
+
+RADEEC RAG Chatbot is an AI-powered customer support assistant built using **Retrieval-Augmented Generation (RAG)** architecture.
+
+The chatbot combines:
+
+- 🔍 Semantic search
+- 🧠 Large Language Models (LLMs)
+- 📚 Knowledge retrieval
+- 💬 Interactive conversational AI
+
+to provide accurate and context-aware responses to customer questions related to:
 
 - Water consumption
 - Billing information
 - Frequently Asked Questions (FAQ)
 
-This project demonstrates how AI can automate customer service and improve user experience using modern NLP technologies.
+This project demonstrates how modern NLP and Generative AI technologies can automate customer support and improve user experience.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Project Objectives
 
-The main objectives of this project are:
-
-- Automate responses to customer questions
+- Automate customer support interactions
 - Retrieve relevant information using semantic search
-- Provide accurate answers using AI
-- Connect AI with structured database (SQLite)
-- Build an intelligent chatbot using RAG architecture
-- Demonstrate real-world AI application
+- Generate intelligent AI responses
+- Integrate AI with structured databases
+- Build a real-world RAG pipeline
+- Demonstrate practical LLM applications
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- 🔍 Retrieval-Augmented Generation (RAG)
-- 🧠 Semantic search using embeddings
-- 🤖 Response generation using LLM (LLaMA 3 via Groq API)
-- 💬 Interactive chatbot interface
-- 🗄️ SQLite database integration
-- 📊 Customer consumption information retrieval
-- 💳 Billing query support
-- 📚 FAQ knowledge base
-- ⚡ Fast similarity search using FAISS
-- 🔐 Secure API key storage using .env file
-
----
-
-## 🛠️ Technologies Used
-
-### Programming Language
-- Python
-
-### AI & NLP
-- LangChain
-- Sentence Transformers
-- LLaMA 3 (Groq API)
-
-### Database
-- SQLite
-- FAISS (Vector Database)
-
-### Interface
-- Streamlit
-
-### Environment Management
-- dotenv
+✅ Retrieval-Augmented Generation (RAG) architecture  
+✅ Semantic search using embeddings  
+✅ LLM response generation with LLaMA 3 (Groq API)  
+✅ Interactive chatbot interface with Streamlit  
+✅ SQLite database integration  
+✅ Customer billing and consumption support  
+✅ FAQ knowledge base retrieval  
+✅ Fast vector similarity search using FAISS  
+✅ Secure API key management using `.env`  
 
 ---
 
-## 🧠 How RAG Works
+# 🛠️ Technologies Used
 
-RAG (Retrieval-Augmented Generation) combines information retrieval with text generation:
-
-1. User asks a question
-2. The question is converted into embeddings
-3. Similar information is retrieved from knowledge base
-4. Context is sent to the LLM
-5. LLM generates accurate answer
-6. Answer is displayed in chatbot interface
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| LLM Framework | LangChain |
+| Embedding Model | Sentence Transformers |
+| Large Language Model | LLaMA 3 (Groq API) |
+| Vector Database | FAISS |
+| Database | SQLite |
+| Interface | Streamlit |
+| Environment Management | python-dotenv |
 
 ---
 
-## 📂 Project Structure
+# 🧠 How RAG Works
 
+<div align="center">
+
+```text
+User Question
+      ↓
+Text Embedding
+      ↓
+Semantic Search (FAISS)
+      ↓
+Relevant Context Retrieval
+      ↓
+LLaMA 3 Response Generation
+      ↓
+Final AI Answer
 ```
+
+</div>
+
+---
+
+# 📂 Project Structure
+
+```bash
 RADEEC_CHATBOT_PROJECT/
 │
-├── chatbot.py           # Main chatbot application
-├── database.py          # Database connection and queries
-├── data_data.txt        # Knowledge base text file
-├── requirements.txt     # Project dependencies
-├── README.md            # Documentation
+├── chatbot.py
+├── database.py
+├── data_data.txt
+├── requirements.txt
+├── README.md
+└── .env
 ```
 
 ---
 
-## ▶️ Installation
+# 📸 Application Preview
 
-### 1. Clone repository
+## 💬 Main Chatbot Interface
+
+<p align="center">
+  <img width="1000" src="https://github.com/user-attachments/assets/8976601b-7eff-4793-b5dd-6274caed6c32"/>
+</p>
+
+---
+
+## 💧 Water Consumption Example
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/7e7ef0d0-e825-498b-a5b5-89641c28eb26"/>
+</p>
+
+---
+
+## 💳 Billing Information Example
+
+<p align="center">
+  <img width="900" src="https://github.com/user-attachments/assets/94098eef-dec7-4978-8370-9588e18abf41"/>
+</p>
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Souadzriouil/RADEEC_CHATBOT_PROJECT.git
 cd RADEEC_CHATBOT_PROJECT
 ```
 
-### 2. Create virtual environment (optional)
+---
+
+## 2️⃣ Create Virtual Environment (Optional)
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+---
+
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Create .env file
+---
 
-Create a file named `.env` in the project folder:
+## 4️⃣ Configure Environment Variables
+
+Create a `.env` file in the project root:
 
 ```env
 GROQ_API_KEY=your_api_key_here
 ```
 
-### 5. Run application
+---
+
+## 5️⃣ Run the Application
 
 ```bash
 streamlit run chatbot.py
 ```
 
-### 6. Open in browser
+---
 
-```
+# 🌐 Access the Application
+
+Open your browser and navigate to:
+
+```bash
 http://localhost:8501
 ```
 
 ---
 
-## 💬 Example Questions
+# 💬 Example Questions
 
 The chatbot can answer questions such as:
 
@@ -142,86 +204,83 @@ The chatbot can answer questions such as:
 - What is the amount of my bill?
 - How can I pay my bill?
 - What services does RADEEC provide?
-- Frequently asked questions
+- Frequently asked customer questions
 
 ---
 
-## 📸 Demo
+# 🔒 Security
 
-### Chatbot Interface
-
-<img width="1566" height="688" alt="Interface_principale" src="https://github.com/user-attachments/assets/8976601b-7eff-4793-b5dd-6274caed6c32" />
-
-
-### Water Consumption Example
-
-<img width="1326" height="784" alt="Consommation_eau" src="https://github.com/user-attachments/assets/7e7ef0d0-e825-498b-a5b5-89641c28eb26" />
-
-
-### Billing Example
-
-<img width="1353" height="784" alt="Consultation facture" src="https://github.com/user-attachments/assets/94098eef-dec7-4978-8370-9588e18abf41" />
+- API keys stored securely using `.env`
+- Sensitive credentials excluded from GitHub
+- Local database management
+- Environment variable protection
 
 ---
 
-## 🔒 Security
+# 📈 Future Improvements
 
-- API keys are stored in `.env`
-- `.env` file is not shared publicly
-- Sensitive information is protected
-- Database is stored locally
-
----
-
-## 📈 Future Improvements
-
-- Add multilingual support (Arabic / French / English)
-- Improve user interface design
-- Add voice chatbot
-- Deploy online (Streamlit Cloud)
-- Connect to real company database
-- Add authentication system
+- [ ] Multilingual support (Arabic / French / English)
+- [ ] Voice-enabled chatbot
+- [ ] Improved UI/UX design
+- [ ] Online deployment with Streamlit Cloud
+- [ ] Real company database integration
+- [ ] Authentication system
+- [ ] Chat history persistence
+- [ ] PDF document ingestion
 
 ---
 
-## 💡 Use Case
+# 💡 Potential Use Cases
 
-This chatbot can be used by:
+This chatbot architecture can be adapted for:
 
-- Water companies
+- Water utility companies
 - Electricity providers
 - Customer service centers
 - Government services
-- Support teams
+- AI-powered support systems
 
-Benefits:
+### Benefits
 
-- 24/7 customer support
-- Faster response time
-- Reduced workload for employees
-- Better user experience
-
----
-
-## 👩‍💻 Author
-
-**Souad Zriouil**  
-AI Engineer | Data Scientist | Machine Learning | NLP | LLM  
-
-[![GitHub](https://img.shields.io/badge/GitHub-Souadzriouil-black?logo=github)](https://github.com/Souadzriouil)
+✅ 24/7 customer support  
+✅ Faster response times  
+✅ Reduced operational workload  
+✅ Improved customer experience  
 
 ---
 
-## ⭐ Support
+# 👩‍💻 Author
 
-If you like this project:
+<div align="center">
+
+## Souad Zriouil
+
+### AI Engineer | Data Scientist | Machine Learning | NLP | LLM
+
+<p align="center">
+  <a href="https://github.com/Souadzriouil">
+    <img src="https://img.shields.io/badge/GitHub-Souadzriouil-181717?style=for-the-badge&logo=github"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/souad-zriouil-54b19b267">
+    <img src="https://img.shields.io/badge/LinkedIn-Souad%20Zriouil-0077B5?style=for-the-badge&logo=linkedin"/>
+  </a>
+</p>
+
+</div>
+
+---
+
+# ⭐ Support
+
+If you find this project useful:
 
 - ⭐ Star the repository
-- Share on LinkedIn
-- Add to your portfolio
+- 🔄 Share it on LinkedIn
+- 📌 Add it to your portfolio
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is for educational and research purposes.
+This project is intended for educational and research purposes.
